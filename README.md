@@ -33,3 +33,20 @@ The design specifications for the MechaCar suspension coils dictate that the var
 * For Lot2, we fail to reject the null hypothesis because the p value is equal to 0.6072. In order for us to accept the null hypothesis with a 95 percent confidence interval, the p value must be less than 0.05. This indicates that the true mean may be equal to 1500, for Lot1 data set.
 * For Lot3, we can reject the null hypothesis with a 95 percent confidence interval. The p value is 0.04168, which is lower than 0.05. This indicates the true mean is leily not equal to 1500. This should trigger more investigation as to why Lot3 is an outlier compared to the other lots.
 
+## Study Design: MechaCar vs Competition
+
+Environmental impact has proven to be a significant consideration for vehicle consumers in recent years. There is a large customer base who prefer a vehicle to have a lower environmental impact. One key metric that marketers use to show long term environmental impact is highway miles per gallon. Higher fuel efficiency is a marketable and competitive advantage. A statistical study that could quantify how MechaCar perfroms against the competition could shape the brands image and drive sales. 
+
+Metrics to be tested include the following:
+* Fuel efficiency highway (MPG) 
+* Fuel efficiency city (MPG)
+* Vehicle type (SUV, sedan, etc.) 
+* Engine type (Electric, gasoline, hybrid, etc.)
+* Vehicle weight
+* Safety rating
+* 
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
+
