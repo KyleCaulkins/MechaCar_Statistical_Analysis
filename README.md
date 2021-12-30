@@ -28,6 +28,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![ttest_lot3](/Challenge/Images/ttest_lot3.png)
 
 **SUMMARY**
-*
-
+* The first image above, represents the entire data sample t-test. The p-value is equal to 0.06, which means we cannont reject the null hypothesis for a 95 percent confidence interval. This indicates that the true mean may be equal to 1500, for the entire data set.
+* For Lot1, we fail to reject the null hypothesis because the p value is equal to 1. In order for us to accept the null hypothesis with a 95 percent confidence interval, the p value must be less than 0.05. This indicates that the true mean may be equal to 1500, for Lot1 data set.
+* For Lot2, we fail to reject the null hypothesis because the p value is equal to 0.6072. In order for us to accept the null hypothesis with a 95 percent confidence interval, the p value must be less than 0.05. This indicates that the true mean may be equal to 1500, for Lot1 data set.
+* For Lot3, we can reject the null hypothesis with a 95 percent confidence interval. The p value is 0.04168, which is lower than 0.05. This indicates the true mean is leily not equal to 1500. This should trigger more investigation as to why Lot3 is an outlier compared to the other lots.
 
