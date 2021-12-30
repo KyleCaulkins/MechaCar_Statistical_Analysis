@@ -1,5 +1,7 @@
 # MechaCar_Statistical_Analysis
 
+The following analysis was performed using Rstudio and written in R. For details of the analysis please review the code [here.](/Challenge/MechaCarChallenge.R)
+
 ## Linear Regression to Prediect MPG
 ![regression_summary](/Challenge/Images/dev1_regression_sum.png)
 
