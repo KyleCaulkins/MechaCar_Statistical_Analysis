@@ -35,7 +35,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## Study Design: MechaCar vs Competition
 
-Environmental impact has proven to be a significant consideration for vehicle consumers in recent years. There is a large customer base who prefer a vehicle to have a lower environmental impact. One key metric that marketers use to show long term environmental impact is highway miles per gallon. Higher fuel efficiency is a marketable and competitive advantage. A statistical study that could quantify how MechaCar perfroms against the competition could shape the brands image and drive sales. 
+Environmental impact has proven to be a significant consideration for vehicle consumers in recent years. There is a large customer base who prefer a vehicle to have a lower environmental impact. One key metric that marketers use to show long term environmental impact is highway miles per gallon. Higher fuel efficiency is a marketable and competitive advantage. A statistical study that could quantify how MechaCar performs against the competition could shape the brands image and drive sales. 
 
 Metrics to be tested include the following:
 * Fuel efficiency highway (MPG) 
@@ -44,9 +44,17 @@ Metrics to be tested include the following:
 * Engine type (Electric, gasoline, hybrid, etc.)
 * Vehicle weight
 * Safety rating
-* 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+
+Hypothesis:
+* Null Hypothesis (Ho): There is no fuel efficiency difference between MechaCar and its competitors.
+* Alternate Hypothesis (Ha): There is a difference in fuel efficiency between MechaCar and its competitors.
+
+Statistical Tests:
+* ANOVA tests could be run to see if there are significant differences between the means of the variables listed above and the vehicle manufacturers. ANOVA tests work well to survey the data and see if the groups are differenet from one another. This would work well to show MachaCar against the field of competitors. 
+* Multiple T-tests could be performed to show significant differences on certain variables against the competitive manufacturers. This type of analysis would work well to show a statistical difference between targeted variables and targeted competitor. For instance, competitor X has a reputation for city fuel efficiency. A visual showing a significant difference with MechaCar having a better city fuel efficiency could be desirable to single out competitor X. 
+* Multivariate ANOVA test could be used to find differences with certain vehicle competitors and multiple metrics. Is MechaCar statistically similar in safety rating while having a better fuel efficiency? This test could answer these types of questions.
+
+**SUMMARY**
+Data for the above metrics would need to be collected for MechaCar models, and the models of each of the MechaCar competitors and grouped accordingly. The more data acquired, the more significant the results will be. If possible, data from independent automotive testers would be preferred. Once this data is compiled, summary statistics should be output to gain an understanding of the data. When the summary statistics are in hand, a more specific set of questions can be made. It is quite possible the question of "is there a difference between fuel efficiencies" changes to, "is there a difference of 3 mpg between the samples". The analysis should be shown to the marketing team so they can provide feedback and the analysis can be iterated to answer necessary questions. Hopefully at the end of the analysis a clear picture of where MechaCar outshines the competition can be made.
+
 
